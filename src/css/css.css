@@ -1,0 +1,38 @@
+.corner {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+.top-left {
+  border-bottom: none;
+  border-right: none;
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  border-bottom: none;
+  border-left: none;
+  top: 0;
+  right: 0;
+}
+
+.bottom-left {
+  border-top: none;
+  border-right: none;
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-right {
+  border-top: none;
+  border-left: none;
+  bottom: 0;
+  right: 0;
+}
+
+.recognized {
+  border-color: green; /* Cambia esto al color que desees */
+}
